@@ -13,6 +13,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/s3")
+@CrossOrigin(origins = "*")
 public class S3Controller {
 
     private final S3Presigner s3Presigner;
